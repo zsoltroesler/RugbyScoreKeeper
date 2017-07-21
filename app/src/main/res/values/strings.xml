@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rugby Score Keeper</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="initialScore">0</string>
+    <string name="fivePoints">+5 points</string>
+    <string name="threePoints">+3 points</string>
+    <string name="twoPoints">+2 points</string>
+    <string name="reset">reset</string>
+</resources>

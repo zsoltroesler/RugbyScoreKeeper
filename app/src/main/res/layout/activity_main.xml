@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.rugbyscorekeeper.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/coverPhoto"
+            android:src="@drawable/rugby"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/teamText"
+                    android:text="@string/teamA"/>
+
+                <TextView
+                    android:id="@+id/text_team_a_score"
+                    style="@style/score"
+                    android:text="@string/initialScore"/>
+
+                <Button
+                    android:id="@+id/button_five_teamA"
+                    style="@style/buttonScore"
+                    android:text="@string/fivePoints"/>
+
+                <Button
+                    android:id="@+id/button_three_teamA"
+                    style="@style/buttonScore"
+                    android:text="@string/threePoints"/>
+
+                <Button
+                    android:id="@+id/button_two_teamA"
+                    style="@style/buttonScore"
+                    android:text="@string/twoPoints"/>
+            </LinearLayout>
+
+            <View
+                style="@style/separator"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/teamText"
+                    android:text="@string/teamB"/>
+
+                <TextView
+                    android:id="@+id/text_team_b_score"
+                    style="@style/score"
+                    android:text="@string/initialScore"/>
+
+                <Button
+                    android:id="@+id/button_five_teamB"
+                    style="@style/buttonScore"
+                    android:text="@string/fivePoints"/>
+
+                <Button
+                    android:id="@+id/button_three_teamB"
+                    style="@style/buttonScore"
+                    android:text="@string/threePoints"/>
+
+                <Button
+                    android:id="@+id/button_two_teamB"
+                    style="@style/buttonScore"
+                    android:text="@string/twoPoints"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_reset"
+            style="@style/buttonReset"
+            android:text="@string/reset"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photoHeight">200dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="padding">4dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="scoreSize">40sp</dimen>
+    <dimen name="marginButton">24dp</dimen>
+    <dimen name="marginBottomReset">32dp</dimen>
+    <dimen name="separator">1dp</dimen>
+</resources>

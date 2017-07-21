@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#656565</item>
+        <item name="colorPrimaryDark">#000000</item>
+    </style>
+
+    <!-- Style of cover photo -->
+    <style name="coverPhoto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/photoHeight</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style of teams -->
+    <style name="teamText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <!-- Style of displayed scores -->
+    <style name="score">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/scoreSize</item>
+    </style>
+
+    <!-- Style of score buttons -->
+    <style name="buttonScore">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:layout_marginLeft">@dimen/marginButton</item>
+        <item name="android:layout_marginRight">@dimen/marginButton</item>
+    </style>
+
+    <!-- Style of reset button -->
+    <style name="buttonReset">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomReset</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Style of separator -->
+    <style name="separator">
+        <item name="android:layout_width">@dimen/separator</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+</resources>
