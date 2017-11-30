@@ -1,4 +1,4 @@
-# RugbyScoreKeeper
+# Rugby Score Keeper
 Udacity Android Basic Nanodegree by Google program
 
 **Project #2: Score keeper app**
