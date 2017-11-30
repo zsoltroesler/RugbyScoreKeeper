@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     // initial scores
-    private int scoreA = 0;
-    private int scoreB = 0;
+    private int scoreA;
+    private int scoreB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.text_team_a_score);
         scoreView.setText(String.valueOf(scoreA));
     }
+
     // display the count for team B
     public void displayForTeamB(int scoreB) {
         TextView scoreView = (TextView) findViewById(R.id.text_team_b_score);
